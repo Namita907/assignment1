@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    flex-flow: row wrap;
+}
+
+.item {
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background: tomato;
+    text-align: center;
+}
+
+.textItem {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid 1px black;
+}
+
+.image {
+    height: 7vh;
+    padding: 8px;
+    margin-top: 11px;
+}
